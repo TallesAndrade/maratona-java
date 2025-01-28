@@ -34,4 +34,4 @@ O resultado de uma operação de numeros inteiros sempre irão retornar numeros 
 
 < > <= >=  == !=
 
-Retornam apenas valores booleanos
+Retornam apenas valores booleanosdo
