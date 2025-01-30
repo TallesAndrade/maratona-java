@@ -34,4 +34,24 @@ O resultado de uma operação de numeros inteiros sempre irão retornar numeros 
 
 < > <= >=  == !=
 
-Retornam apenas valores booleanosdo
+Retornam apenas valores booleanos
+
+##### Operadores Logicos
+
++ &&(AND) ||(OR) !(NOT)
+
+##### Operadores Atribuição
+ 
+= += -= *= /= ++ --\
+Adicionar o incrementador antes da variavel adiona o valor antes e após incrementa o valor que ela tem.
+
+##### Estruturas Condicionais
+Todos os valores dentro do if só sera executada ser for booleana, e true.
+Todas a vezes que a primeira validadação do if for false ele executa o else.
+Else if é uma validação intermediaria quando se tem mais de 2 opçoes.
+            
+Operador ternario
+
+        //(condicao) ? verdadeiro : falso
+
+Switch
