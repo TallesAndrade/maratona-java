@@ -62,3 +62,7 @@ O valor de dentro sempre tem que ser um boolean e incrementado dentro do loop, s
 Funciona como o while com a diferença que sempre será executado ao menos uma vez, e a verificação da condição é feita ao final do loop.
 + For
 Todas a regras para fazer o loop são dadas no inicio, o valor incial do contador a verificação da condição e o incremento da variavel que roda o loop.
+
+##### Arrays
+Um array em Java é uma estrutura de dados que armazena uma sequência de valores do mesmo tipo e é uma variavel do tipo referencia.
+É uma variável que armazena o endereço de um objeto na memória, em vez do próprio objeto
