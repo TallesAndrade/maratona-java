@@ -1,4 +1,4 @@
-package com.talles.maratonajava.introducao;
+package com.talles.maratonajava.introducao.aula03;
 
 /*
     Crie variáveis para os campos descritos abaixo entre <> e imprima a seguinte mensagem:

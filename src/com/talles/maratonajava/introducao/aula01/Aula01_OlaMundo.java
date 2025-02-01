@@ -1,4 +1,4 @@
-package com.talles.maratonajava.introducao;
+package com.talles.maratonajava.introducao.aula01;
 
 /**
  * Isso é um comentario <b>javadoc</b>

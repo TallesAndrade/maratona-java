@@ -1,4 +1,4 @@
-package com.talles.maratonajava.introducao;
+package com.talles.maratonajava.introducao.aula05;
 
 import java.util.Scanner;
 

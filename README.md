@@ -54,4 +54,11 @@ Operador ternario
 
         //(condicao) ? verdadeiro : falso
 
-Switch
+##### Estruturas de Repetição
+
++ While
+O valor de dentro sempre tem que ser um boolean e incrementado dentro do loop, se não roda infinito.
++ Do-While
+Funciona como o while com a diferença que sempre será executado ao menos uma vez, e a verificação da condição é feita ao final do loop.
++ For
+Todas a regras para fazer o loop são dadas no inicio, o valor incial do contador a verificação da condição e o incremento da variavel que roda o loop.

@@ -1,4 +1,4 @@
-package com.talles.maratonajava.introducao;
+package com.talles.maratonajava.introducao.aula05;
 
 public class Aula05EstruturasCondicionais05 {
     public static void main(String[] args) {
