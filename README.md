@@ -65,4 +65,24 @@ Todas a regras para fazer o loop são dadas no inicio, o valor incial do contado
 
 ##### Arrays
 Um array em Java é uma estrutura de dados que armazena uma sequência de valores do mesmo tipo e é uma variavel do tipo referencia.
-É uma variável que armazena o endereço de um objeto na memória, em vez do próprio objeto
+É uma variável que armazena o endereço de um objeto na memória, em vez do próprio objeto.
+Arrays são estaticos, após a inicialização dele ele sempre vai ter o mesmo numero de valores para preencher.
+##### Arrays Multidimencionais
+Arrays Multidimencionais são arrays dentro de arrays, int[ ][ ] dias = new int[2][2]
+no exemplo de um array multidimencional teremos 3 arrays com 3 posições e cada array.
+![img_1.png](img_1.png)
+
+###### Garbage Collector
+É Um mecanismo no Java que gerencia a memoria, reponsavel por liberar a memoria que não esta sendo mais referenciada no codigo.
+
+### Orientação Objetos
+##### Introdução classes
+
+Orientação a objetos (POO) é um paradigma de programação que estrutura o código em torno de objetos que representam entidades do mundo real.
+A POO permite: Modularizar o código, Reutilizar código, Desenvolver sistemas complexos, Aproximar o real e o virtual, Visualizar o que está sendo criado. 
+![img_3.png](img_3.png)
+
+A imagem acima representa a criação de dois objetos pessoas a partir de uma classe Pessoa, a classe é uma "forma" aonde é passa as caracteristicas
+e atributos. Não possuem o psvm já que são classes de dominio, algo que representa o mapeamento do mundo real.
+
+
