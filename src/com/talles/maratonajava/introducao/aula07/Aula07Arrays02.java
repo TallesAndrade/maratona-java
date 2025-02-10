@@ -8,12 +8,14 @@ public class Aula07Arrays02 {
         // boolean = false
         //String = null
 
-        int[] idades = new int[3];
-        idades[0] = 17;
-        idades[1] = 15;
-        idades[2] = 38;
-        System.out.println(idades[0]);
-        System.out.println(idades[1]);
-        System.out.println(idades[2]);
+        String[] nomes = new String[4];
+        nomes[0] = "Goku";
+        nomes[1] = "Naruto";
+        nomes[2] = "Sasuke";
+        nomes[3] = "Vegeta";
+        for (int i = 0; i < nomes.length ; i++) {
+            System.out.printf(nomes[i]);
+
+        }
     }
 }
