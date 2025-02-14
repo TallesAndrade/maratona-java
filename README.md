@@ -84,5 +84,6 @@ A POO permite: Modularizar o código, Reutilizar código, Desenvolver sistemas c
 
 A imagem acima representa a criação de dois objetos pessoas a partir de uma classe Pessoa, a classe é uma "forma" aonde é passa as caracteristicas
 e atributos. Não possuem o psvm já que são classes de dominio, algo que representa o mapeamento do mundo real.
+##### Coesão
 
-
+Coesão em Java significa que cada classe deve ser responsável por um único objetivo, sem misturar funcionalidades de outras áreas. Isso torna o código mais organizado, claro e fácil de manter, pois cada classe tem uma função bem definida e focada em um único propósito.
