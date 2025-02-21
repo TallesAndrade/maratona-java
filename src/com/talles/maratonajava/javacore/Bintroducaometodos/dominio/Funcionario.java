@@ -1,9 +1,10 @@
 package com.talles.maratonajava.javacore.Bintroducaometodos.dominio;
 
 public class Funcionario {
-    public String nome;
-    public int idade;
-    public double[] salarios;
+    private String nome;
+    private int idade;
+    private double[] salarios;
+    private double media = 0;
 
     public void imprimirDados() {
         System.out.println("Nome:" + this.nome);
@@ -19,14 +20,42 @@ public class Funcionario {
     }
 
     public void mediaSalarios() {
-        double somaSalarios = 0;
         if (salarios == null){
             return;
         }
 
         for (double salario : salarios) {
-            somaSalarios += salario;
+            media += salario;
         }
-        System.out.println("\nA media do salario do funcionario é R$" + somaSalarios / salarios.length);
+        System.out.println("\nA media do salario do funcionario é R$" + media / salarios.length);
     }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public double[] getSalarios() {
+        return salarios;
+    }
+
+    public void setSalarios(double[] salarios) {
+        this.salarios = salarios;
+    }
+
+    public double getMedia() {
+        return media;
+    }
+
 }
