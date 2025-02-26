@@ -109,3 +109,24 @@ A sobrecarga de métodos em Java permite definir vários métodos com o mesmo no
 ##### Contrutores
 Quando um objeto é criado em Java, um construtor é sempre invocado para inicializá-lo. Se não houver um construtor explícito definido na classe, o Java automaticamente cria um construtor vazio, sem parâmetros, para garantir que o objeto seja inicializado com valores padrão. No entanto, se você definir um construtor com parâmetros, ele permite que o objeto seja criado com valores específicos passados no momento da instância. Nesse caso, o construtor vazio não é gerado automaticamente, e você precisará usar o construtor parametrizado para inicializar o objeto com dados personalizados. Portanto, dependendo da definição dos construtores, você pode controlar como os objetos são inicializados, seja de forma padrão ou com valores fornecidos.
 A sobrec arga de construtor ocorre quando uma classe tem múltiplos construtores com o mesmo nome, mas com diferentes listas de parâmetros. Isso permite criar objetos de diferentes maneiras, dependendo dos parâmetros passados durante a criação. Por exemplo, uma classe pode ter um construtor sem parâmetros, outro com um parâmetro e até mesmo outro com múltiplos parâmetros, oferecendo flexibilidade na inicialização dos objetos. A sobrecarga de construtores é útil quando você deseja fornecer diferentes formas de inicializar um objeto, sem precisar criar múltiplos nomes para os construtores, simplificando o código e mantendo a clareza. O Java escolhe qual construtor usar com base nos tipos e na quantidade de argumentos fornecidos no momento da criação do objeto
+##### Bloco de Inicialização
+Existem dois tipos principais de blocos de inicialização em Java:
+
+###### 1. Bloco de Inicialização de Instância
+
+- **Quando é executado:** Sempre que um **objeto** da classe é criado.
+- **Como funciona:** É executado **antes** do construtor, ou seja, logo após a criação do objeto e antes da execução do código do construtor.
+- **Objetivo:** Inicializar variáveis de instância ou realizar outras operações que precisam ser feitas antes do construtor ser executado.
+
+2. Bloco de Inicialização Estático
+
+- **Quando é executado:** Apenas **uma vez**, quando a classe é carregada pela primeira vez pela JVM.
+- **Como funciona:** É associado à **classe** e não a objetos individuais. É executado **antes** de qualquer instância da classe ser criada.
+- **Objetivo:** Inicializar variáveis estáticas ou realizar operações que devem ocorrer uma única vez, como configurar recursos compartilhados ou fazer inicializações globais.
+
+---
+
+##### Resumo
+
+- **Bloco de Inicialização de Instância:** Inicializa cada objeto individualmente e é executado toda vez que um novo objeto é criado.
+- **Bloco de Inicialização Estático:** Inicializa a classe como um todo e é executado apenas uma vez, quando a classe é carregada.
