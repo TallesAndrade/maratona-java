@@ -130,3 +130,52 @@ Existem dois tipos principais de blocos de inicialização em Java:
 
 - **Bloco de Inicialização de Instância:** Inicializa cada objeto individualmente e é executado toda vez que um novo objeto é criado.
 - **Bloco de Inicialização Estático:** Inicializa a classe como um todo e é executado apenas uma vez, quando a classe é carregada.
+
+##### Modificador `static` - Variáveis Estáticas
+
+###### O que são variáveis estáticas?
+Uma variável declarada como `static` pertence à classe em vez de pertencer a instâncias individuais. Isso significa que seu valor é compartilhado entre todas as instâncias da classe, e ela é inicializada apenas uma vez, na primeira utilização da classe.
+
+###### Características das variáveis estáticas:
+- São compartilhadas por todas as instâncias da classe.
+- Podem ser acessadas diretamente pelo nome da classe (`Classe.variavel`).
+- São inicializadas uma única vez, quando a classe é carregada na memória.
+- Mantêm seu valor entre diferentes instâncias da classe.
+
+
+###### Quando usar variáveis estáticas?
+- Para definir constantes (`static final`), como `public static final double PI = 3.14;`
+- Para contadores ou valores que devem ser compartilhados entre todas as instâncias da classe.
+- Para cache de valores que não precisam ser recalculados repetidamente.
+
+###### Observações
+- O uso excessivo de variáveis estáticas pode tornar o código menos flexível e dificultar testes.
+- Em aplicações multithread, deve-se ter cuidado ao modificar variáveis estáticas, pois elas podem ser acessadas simultaneamente por várias threads.
+
+##### Métodos Estáticos
+
+###### O que são Métodos Estáticos?
+Os métodos estáticos pertencem à classe e não a uma instância específica da classe. Isso significa que eles podem ser chamados sem precisar criar um objeto.
+
+###### Características dos Métodos Estáticos:
+- São definidos com a palavra-chave `static`.
+- Não podem acessar diretamente atributos de instância da classe.
+- Só podem chamar outros métodos estáticos diretamente.
+- São geralmente utilizados para operações que não dependem de instâncias específicas.
+
+
+
+###### Quando Usar Métodos Estáticos?
+- Para operações utilitárias (ex: `Math.pow()`, `Math.sqrt()`).
+- Quando o método não depende de atributos de instância.
+- Para criar fábricas de objetos (`factory methods`).
+- Métodos auxiliares em classes de serviço.
+
+###### Restrições dos Métodos Estáticos:
+- Não podem usar `this` ou `super`, pois não pertencem a uma instância específica.
+- Não podem ser sobrescritos (`override`), mas podem ser redefinidos em subclasses com um novo método estático.
+
+###### Conclusão
+Métodos estáticos são uma ferramenta poderosa para organizar código reutilizável e funções auxiliares. No entanto, devem ser usados com cautela para evitar dependências globais excessivas.
+
+##### Associação

@@ -1,15 +1,14 @@
-package com.talles.maratonajava.javacore.Eblocoinicializacao.Test;
+package com.talles.maratonajava.javacore.Fmodificadorestatico.Test;
 
-import com.talles.maratonajava.javacore.Eblocoinicializacao.Domain.Anime;
+
+import com.talles.maratonajava.javacore.Fmodificadorestatico.Domain.Anime;
 
 public class AnimeTest01 {
     public static void main(String[] args) {
-        Anime anime = new Anime("One Piece");
+        Anime anime = new Anime();
+        Anime anime2 = new Anime();
+        Anime anime3 = new Anime();
 
-        for (int episodio : anime.getEpisodios()) {
-            System.out.print(episodio + " ");
-            
-        }
 
     }
 }
