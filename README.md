@@ -192,5 +192,4 @@ A Associação Unidirecional Muitos para Um (também conhecida como 1:N) é um t
 A associação bidirecional é um tipo de relacionamento entre duas classes onde cada uma mantém uma referência à outra, permitindo navegação nos dois sentidos. Esse tipo de associação é útil quando é necessário que ambas as entidades envolvidas tenham conhecimento uma da outra e possam acessar seus dados diretamente. No entanto, é importante gerenciar corretamente essa relação para evitar referências circulares e problemas de consistência nos dados.
 
 ##### Leitura de dados
-
-
+Em Java, a entrada de dados pode ser realizada de várias formas, sendo a mais comum através da classe Scanner, que permite ler dados do console. Para utilizar, é necessário importar a classe com import java.util.Scanner; e criar um objeto Scanner para capturar entradas como texto, números inteiros, decimais, entre outros. Exemplos de métodos incluem nextLine() para strings, nextInt() para inteiros e nextDouble() para números de ponto flutuante. Após a leitura, é importante fechar o objeto Scanner com scanner.close() para liberar recursos.
