@@ -1,9 +1,13 @@
 package com.talles.maratonajava.javacore.Jmodificadorfinal.Domain;
 
-public class Carro {
+public  class Carro {
     private String nome;
     public static final double VELOCIDADE_LIMITE = 250;
     public  final Comprador comprador = new Comprador();
+
+    public final void imprime(){
+        System.out.println(this.nome);
+    }
 
     public String getNome() {
         return nome;
