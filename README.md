@@ -203,3 +203,10 @@ Em Java, a entrada de dados pode ser realizada de várias formas, sendo a mais c
 ##### Sobrescrita do método toString
 
 A sobrescrita do método toString() em Java permite personalizar a representação textual de um objeto. Por padrão, toString() vem da classe Object e retorna o nome da classe seguido do código hash do objeto. Ao sobrescrevê-lo em uma classe, é possível definir um retorno mais legível, como os valores dos atributos. Isso é útil para depuração e exibição de informações.
+
+##### Modificador final
+
++ Tipo Primitivo
+  Em Java, o modificador final em tipos primitivos impede que a variável tenha seu valor alterado após a atribuição. Quando combinado com static, a variável se torna uma constante associada à classe, e não a instâncias individuais. Isso é útil para definir valores fixos compartilhados, como public static final double PI = 3.14159;, garantindo que o valor seja imutável e acessível sem a necessidade de criar um objeto.
++ Tipo Referência
+  Em Java, quando o modificador final é aplicado a uma variável de tipo referência, ele impede que a variável aponte para outro objeto, mas não bloqueia a modificação dos atributos do objeto referenciado. Ou seja, após a atribuição inicial, a referência não pode ser alterada, mas o conteúdo interno pode ser modificado. Esse comportamento é útil para garantir que um objeto específico seja sempre o mesmo, sem impedir sua manipulação.
