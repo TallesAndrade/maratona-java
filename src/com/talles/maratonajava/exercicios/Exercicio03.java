@@ -26,5 +26,6 @@ public class Exercicio03 {
             System.out.println("The multiplication of the firt number and the second number is "+ multiplicationNumberOneNumberTwo);
         }
 
+        scanner.close();
     }
 }

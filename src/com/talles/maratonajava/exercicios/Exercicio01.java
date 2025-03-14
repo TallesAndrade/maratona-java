@@ -21,6 +21,7 @@ public class Exercicio01 {
             System.out.println("The sum of A + B is less than C");
         }
 
+        scanner.close();
     }
 
 

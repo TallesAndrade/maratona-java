@@ -19,5 +19,7 @@ public class Exercicio02 {
         }else {
             System.out.println("This number is negative");
         }
+
+        scanner.close();
     }
 }

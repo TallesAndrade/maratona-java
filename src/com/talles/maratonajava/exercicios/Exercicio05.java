@@ -19,5 +19,7 @@ public class Exercicio05 {
 
         double quantitySalary = salary / minimumWage;
         System.out.printf("Do you received: %.2f salary%n", quantitySalary , "minumum salary");
+
+        scanner.close();
     }
 }

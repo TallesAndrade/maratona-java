@@ -14,5 +14,7 @@ public class Exercicio04 {
         int predecessor = number - 1;
         int successor = number + 1;
         System.out.println("The predecessor of " + number + " is " + predecessor +" the sucessor is " + successor);
+
+        scanner.close();
     }
 }
