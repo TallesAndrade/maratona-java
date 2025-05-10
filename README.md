@@ -1,3 +1,10 @@
+# Repositório de Estudos Java — Quitação de Débitos Técnicos
+
+Este repositório tem como objetivo quitar débitos técnicos em Java, reforçando os fundamentos da linguagem por meio de anotações, exemplos e testes práticos. Ele serve como base de consulta e revisão contínua para consolidar o conhecimento adquirido.
+
+---
+
+
 ### Como funciona o java
 
 ![img.png](img.png)
